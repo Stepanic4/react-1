@@ -7,35 +7,4 @@
 
     grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
-    /*grid-gap: 10px;*/
-}
-
-.header {
-    grid-area: h;
-    background-color: aqua;
-}
-
-.header img {
-    max-width: 100px;
-    height: auto;
-}
-
-.nav {
-    grid-area: n;
-    background-color: aquamarine;
-}
-
-.content {
-    grid-area: c;
-    display: inherit;
-    background-color: bisque;
-}
-
-.content .yourImage {
-    min-height: 5em;
-}
-
-.content img {
-    max-width: 30em;
-    height: auto;
 }
