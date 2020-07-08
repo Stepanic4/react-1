@@ -1,0 +1,8 @@
+.item {
+    color: #0096ff;
+}
+
+.item img {
+    max-width: 3em;
+    border-radius: 50%;
+}

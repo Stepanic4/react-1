@@ -1,0 +1,18 @@
+.nav {
+    grid-area: n;
+    background-color: #57ae2c;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 15px;
+    color: #ffffff;
+}
+
+.item:hover {
+    color: #efff0f;
+}
+

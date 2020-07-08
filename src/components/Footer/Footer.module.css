@@ -1,0 +1,10 @@
+.footer {
+    grid-area: f;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f8ff80;
+    background-color: #005da5;
+    min-height: 3em;
+}
