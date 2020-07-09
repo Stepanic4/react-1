@@ -1,3 +1,16 @@
+.item a {
+    color: white;
+    text-decoration: none;
+}
+
+.item a:hover, :focus {
+    color: #efff0f;
+}
+
+.item a.activeLink {
+    color: #efff0f;
+}
+
 .nav {
     grid-area: n;
     background-color: #57ae2c;
@@ -9,10 +22,5 @@
     align-items: center;
     cursor: pointer;
     margin: 15px 5px;
-    color: #ffffff;
-}
-
-.item:hover {
-    color: #efff0f;
 }
 

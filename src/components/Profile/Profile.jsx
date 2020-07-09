@@ -6,7 +6,7 @@ const Profile = () => {
     return (
         <div>
             <div className={s.yourImage}>
-                <img src="https://www.pulsar.ua/components/com_jshopping/files/img_products/full_71pOMS8Zv4L.jpg"
+                <img src="https://tourjournal.ru/media/k2/items/cache/3dcbd8056f504532259e733a4b9e2ae3_XL.jpg"
                      alt="ProfileLogo"/>
             </div>
             <div>
