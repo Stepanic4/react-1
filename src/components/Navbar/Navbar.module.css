@@ -15,7 +15,9 @@
 .nav {
     grid-area: n;
     background-image: url(https://thumbs.dreamstime.com/b/green-repeating-diagonal-square-mosaic-pattern-background-vector-illustration-green-repeating-diagonal-square-mosaic-pattern-126509315.jpg);
-    border-right: 5px solid #00ff61;
+    border-right: 5px solid #051697;
+    background-color: blue;
+    background-blend-mode: multiply;
 }
 
 .item {

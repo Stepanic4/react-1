@@ -12,6 +12,7 @@
 .app-wrapper-content {
     grid-area: p;
     display: inherit;
+    padding: 1em;
 
-    background-color: bisque;
+    background-image: url(https://www.gameartguppy.com/wp-content/uploads/2011/06/feature.png);
 }
