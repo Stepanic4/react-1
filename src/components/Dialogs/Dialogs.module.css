@@ -4,8 +4,12 @@
     grid-template-columns: 4fr 10fr;
 }
 
-.dialogsItem .active {
-    color: #00c611;
+.dialogsItems .active {
+    color: #efff0f;
+}
+
+.dialogsItems a:hover, a:focus {
+    color: #efff0f;
 }
 
 .dialog {
