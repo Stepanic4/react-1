@@ -1,4 +1,27 @@
 
-.item {
-    color: #0061b4;
+.dialogs {
+    display: grid;
+    grid-template-columns: 4fr 10fr;
+
+    background-image: url(https://www.gameartguppy.com/wp-content/uploads/2011/06/feature.png);
+}
+
+.dialogsItem {
+    padding: 10px;
+}
+
+.dialogsItem .active {
+    color: #00c611;
+}
+
+.dialog {
+
+}
+
+.messages {
+    padding: 10px;
+}
+
+.message {
+
 }

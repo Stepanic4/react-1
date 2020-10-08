@@ -1,9 +1,10 @@
 .item a {
-    color: white;
+    color: blue;
     text-decoration: none;
+    font-weight: bold;
 }
 
-.item a:hover, :focus {
+.item a:hover, a:focus {
     color: #efff0f;
 }
 
@@ -13,7 +14,8 @@
 
 .nav {
     grid-area: n;
-    background-color: #57ae2c;
+    background-image: url(https://thumbs.dreamstime.com/b/green-repeating-diagonal-square-mosaic-pattern-background-vector-illustration-green-repeating-diagonal-square-mosaic-pattern-126509315.jpg);
+    border-right: 5px solid #00ff61;
 }
 
 .item {
