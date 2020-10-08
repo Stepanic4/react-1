@@ -9,6 +9,10 @@
     grid-template-columns: 2fr 10fr;
 }
 
+.app-wrapper a {
+    text-decoration: none;
+}
+
 .app-wrapper-content {
     grid-area: p;
     display: inherit;
