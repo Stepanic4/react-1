@@ -14,11 +14,11 @@ const MyPosts = (props) => {
     return (
         <div>
             <h2>My posts</h2>
-            <div>
-                <textarea/>
+            <div className={s.ta}>
+                <textarea cols="50" rows="5"/>
             </div>
             <div>
-                <button>Add post</button>
+                <a href="#" className={s.button}>Add post</a>
             </div>
             <div className = {s.posts}>
                 {postsElements}
