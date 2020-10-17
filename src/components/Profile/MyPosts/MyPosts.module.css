@@ -36,4 +36,5 @@ textarea {
     border: 3px solid #110e99;
     border-radius: 5px;
     resize: none;
+    font-size: 1.5em;
 }

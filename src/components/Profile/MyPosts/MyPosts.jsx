@@ -15,7 +15,7 @@ const MyPosts = (props) => {
         <div>
             <h2>My posts</h2>
             <div className={s.ta}>
-                <textarea cols="50" rows="5"/>
+                <textarea cols="50" rows="5" placeholder ="Type your message"/>
             </div>
             <div>
                 <a href="#" className={s.button}>Add post</a>
