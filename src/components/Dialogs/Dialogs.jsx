@@ -9,9 +9,9 @@ const Dialogs = () => {
     let dialogs = [
         {id: 1, name: 'Ivan Zolotukhin'},
         {id: 2, name: 'John Fobos'},
-        {id: 3, name: 'Your name'},
+        {id: 3, name: 'Sveta Antonenko'},
         {id: 4, name: 'Anton Ranovac'},
-        {id: 5, name: 'Czech Republic'}
+        {id: 5, name: 'Anna Myrenenco'}
     ];
 
     let messages = [

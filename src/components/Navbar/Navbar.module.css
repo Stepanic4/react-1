@@ -1,14 +1,14 @@
 .item a {
-    color: blue;
+    color: #fffef8;
     font-weight: bold;
 }
 
 .item a:hover, a:focus {
-    color: #efff0f;
+    color: #ff9106;
 }
 
 .item a.activeLink {
-    color: #efff0f;
+    color: #ff9106;
 }
 
 .nav {

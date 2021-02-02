@@ -1,6 +1,15 @@
 .yourImage img {
     display: block;
     max-width: 100%;
-    max-height: 20em;
+    max-height: 15em;
     margin: auto;
+    border-radius: 50%;
+
+    background: -moz-linear-gradient(-45deg,  rgba(0,0,0,0.47) 0%, rgba(0,0,0,0.47) 1%, rgba(0,0,0,0) 48%, rgba(0,0,0,0.48) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(0,0,0,0.47) 0%,rgba(0,0,0,0.47) 1%,rgba(0,0,0,0) 48%,rgba(0,0,0,0.48) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(0,0,0,0.47) 0%,rgba(0,0,0,0.47) 1%,rgba(0,0,0,0) 48%,rgba(0,0,0,0.48) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78000000', endColorstr='#7a000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    -webkit-box-shadow: 0px 0px 17px 5px #898989;
+    box-shadow: 0px 0px 17px 5px #898989;
 }
